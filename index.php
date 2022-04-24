@@ -1,6 +1,6 @@
 <?php
 require_once 'config/global-const.php';
-require_once 'add-card.php';
+require_once 'functions/getPageTitle.php';
 
 echo "Hello, world!";
 echo "<br />";

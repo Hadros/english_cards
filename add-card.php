@@ -3,12 +3,7 @@ require_once 'vendor/autoload.php';
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
 
-//require_once 'functions/getPageTitle.php';
-
-function getPageTitle($txt = "Some page") 
-{
-    return $txt;
-}
+require_once 'functions/getPageTitle.php';
 
 $loader = new FilesystemLoader('templates');
 $view = new Environment($loader);
