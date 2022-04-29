@@ -1,6 +1,6 @@
 <?php
 require_once 'config/global-const.php';
-require_once 'functions/getPageTitle.php';
+require_once 'functions.php';
 
 echo "Hello, world!";
 echo "<br />";
