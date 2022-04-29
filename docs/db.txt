@@ -1,2 +1,5 @@
 create table cards:
 CREATE TABLE cards (id int NOT NULL AUTO_INCREMENT, text VARCHAR(255), CONSTRAINT pk_cards PRIMARY KEY (id) );
+
+create table cards (version 2):
+CREATE TABLE cards (id int NOT NULL AUTO_INCREMENT, word VARCHAR(255), ru_sentence VARCHAR(255), eng_sentence VARCHAR(255), score int DEFAULT 0 NOT NULL, CONSTRAINT pk_cards PRIMARY KEY (id) );

@@ -1,0 +1,9 @@
+<form action="examination-action.php" method="POST">
+    <div>
+        <div>eng sentence: {{ scope_title}}</div>
+        <textarea name="eng_sentence" rows="5" cols="40" style="margin-bottom: 10px;"></textarea>
+
+        <input name="card_id" hidden value="{{ card_id}}">
+    </div>
+    <input type="submit" value="Add">
+</form>

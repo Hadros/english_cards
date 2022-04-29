@@ -1,7 +1,11 @@
 <form action="add-card-action.php" method="POST">
     <div>
-        <div>Text: {{ scope_title}}</div>
-        <textarea name="text" rows="10 cols="40"></textarea>
+        <div>eng word: {{ scope_title}}</div>
+        <textarea name="word" rows="1" cols="20"></textarea>
+        <div style="padding-top: 20px;">ru sentence: {{ scope_title}}</div>
+        <textarea name="ru_sentence" rows="5" cols="40"></textarea>
+        <div style="padding-top: 20px;">eng sentence: {{ scope_title}}</div>
+        <textarea name="eng_sentence" rows="5" cols="40" style="margin-bottom: 10px;"></textarea>
     </div>
     <input type="submit" value="Add">
 </form>
